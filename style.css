@@ -125,6 +125,15 @@ input:focus {
     padding: 1rem 2rem;
     border: none;
     box-shadow: 5px 5px 15px black;
+    margin-bottom: 24px;
+}
+
+.form-footer > button:hover {
+    filter: brightness(85%);
+}
+
+.form-footer > button:active {
+    filter: brightness(115%);
 }
 
 .form-footer a {
